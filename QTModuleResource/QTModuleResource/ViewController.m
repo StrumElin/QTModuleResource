@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "TestOneViewController.h"
+#import "AssetManager.h"
+
 @interface ViewController ()
 
 @end
@@ -21,8 +23,10 @@
 
 - (IBAction)pushOne:(id)sender {
     
-    TestOneViewController *tv = [[TestOneViewController alloc] initWithNibName:@"TestOneViewController" bundle:nil];
+     NSBundle *bundle = [AssetManager bundleReasource];
     
+    TestOneViewController *tv = [[TestOneViewController alloc] initWithNibName:@"TestOneViewController" bundle:bundle];
+//
     [self.navigationController pushViewController:tv animated:YES];
 }
 

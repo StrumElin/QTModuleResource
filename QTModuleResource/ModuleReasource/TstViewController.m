@@ -1,18 +1,18 @@
 //
-//  TestTwoViewController.m
+//  TstViewController.m
 //  QTModuleResource
 //
-//  Created by ☺strum☺ on 2018/11/27.
+//  Created by ☺strum☺ on 2018/11/28.
 //  Copyright © 2018年 l. All rights reserved.
 //
 
-#import "TestTwoViewController.h"
+#import "TstViewController.h"
 
-@interface TestTwoViewController ()
+@interface TstViewController ()
 
 @end
 
-@implementation TestTwoViewController
+@implementation TstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

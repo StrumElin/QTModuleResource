@@ -1,8 +1,8 @@
 //
-//  TestTwoViewController.h
+//  TstViewController.h
 //  QTModuleResource
 //
-//  Created by ☺strum☺ on 2018/11/27.
+//  Created by ☺strum☺ on 2018/11/28.
 //  Copyright © 2018年 l. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestTwoViewController : UIViewController
+@interface TstViewController : UIViewController
 
 @end
 

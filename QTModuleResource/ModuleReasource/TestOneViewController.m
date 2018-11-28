@@ -7,7 +7,8 @@
 //
 
 #import "TestOneViewController.h"
-
+#import "AssetManager.h"
+#import "TstViewController.h"
 @interface TestOneViewController ()
 
 @end
@@ -17,21 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    NSBundle *podBundle = [NSBundle bundleForClass:self.class];
-//    id podData = [podBundle URLForResource:@"QTModuleResourceBundle" withExtension:@"bundle"];
-//    NSBundle *bundle = [NSBundle bundleWithURL:podData];
-//
-    NSBundle *bundle = [NSBundle mainBundle];
-    
-     NSString * key = [[NSJSONSerialization JSONObjectWithData:[[NSData alloc] initWithContentsOfFile:[bundle pathForResource:@"users_config" ofType:@"json"]] options:NSJSONReadingMutableContainers error:nil] valueForKey:@"appkey"];
+    NSBundle *bundle = [AssetManager bundleReasource];
+
+    NSString * key = [[NSJSONSerialization JSONObjectWithData:[[NSData alloc] initWithContentsOfFile:[bundle pathForResource:@"users_config" ofType:@"json"]] options:NSJSONReadingMutableContainers error:nil] valueForKey:@"appkey"];
     
     NSLog(@"key -------- %@",key);
-    // Do any additional setup after loading the view from its nib.
 }
 
 
 - (IBAction)pushTWO:(id)sender {
 
+    TstViewController *tv = [[TstViewController alloc] initWithNibName:@"TstViewController" bundle: [AssetManager bundleReasource]];
+    [self.navigationController pushViewController:tv animated:YES];
+    
     
 }
 

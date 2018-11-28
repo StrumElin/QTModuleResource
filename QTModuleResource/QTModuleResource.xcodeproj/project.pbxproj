@@ -13,12 +13,13 @@
 		6A1E3B7A21AD67B70044662E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E3B7921AD67B70044662E /* Assets.xcassets */; };
 		6A1E3B7D21AD67B70044662E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E3B7B21AD67B70044662E /* LaunchScreen.storyboard */; };
 		6A1E3B8021AD67B70044662E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E3B7F21AD67B70044662E /* main.m */; };
-		6A1E3B8A21AD68B30044662E /* TestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E3B8821AD68B30044662E /* TestOneViewController.m */; };
-		6A1E3B8B21AD68B30044662E /* TestOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E3B8921AD68B30044662E /* TestOneViewController.xib */; };
-		6A1E3B8F21AD68C10044662E /* TestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E3B8D21AD68C10044662E /* TestTwoViewController.m */; };
-		6A1E3B9021AD68C10044662E /* TestTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E3B8E21AD68C10044662E /* TestTwoViewController.xib */; };
 		6A1E3B9221AD69E70044662E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E3B9121AD69E70044662E /* 1.jpg */; };
 		6A1E3B9421AD6A290044662E /* users_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E3B9321AD6A290044662E /* users_config.json */; };
+		6A91D51A21AE2ADF00195231 /* AssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D51921AE2ADF00195231 /* AssetManager.m */; };
+		6A91D51E21AE2E6800195231 /* TestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D51C21AE2E6800195231 /* TestOneViewController.m */; };
+		6A91D51F21AE2E6800195231 /* TestOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A91D51D21AE2E6800195231 /* TestOneViewController.xib */; };
+		6A91D53C21AE361800195231 /* TstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D53A21AE361800195231 /* TstViewController.m */; };
+		6A91D53D21AE361800195231 /* TstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A91D53B21AE361800195231 /* TstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +33,16 @@
 		6A1E3B7C21AD67B70044662E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A1E3B7E21AD67B70044662E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A1E3B7F21AD67B70044662E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6A1E3B8721AD68B30044662E /* TestOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOneViewController.h; sourceTree = "<group>"; };
-		6A1E3B8821AD68B30044662E /* TestOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOneViewController.m; sourceTree = "<group>"; };
-		6A1E3B8921AD68B30044662E /* TestOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestOneViewController.xib; sourceTree = "<group>"; };
-		6A1E3B8C21AD68C10044662E /* TestTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTwoViewController.h; sourceTree = "<group>"; };
-		6A1E3B8D21AD68C10044662E /* TestTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoViewController.m; sourceTree = "<group>"; };
-		6A1E3B8E21AD68C10044662E /* TestTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTwoViewController.xib; sourceTree = "<group>"; };
 		6A1E3B9121AD69E70044662E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		6A1E3B9321AD6A290044662E /* users_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users_config.json; sourceTree = "<group>"; };
+		6A91D51821AE2ADF00195231 /* AssetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetManager.h; sourceTree = "<group>"; };
+		6A91D51921AE2ADF00195231 /* AssetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetManager.m; sourceTree = "<group>"; };
+		6A91D51B21AE2E6800195231 /* TestOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOneViewController.h; sourceTree = "<group>"; };
+		6A91D51C21AE2E6800195231 /* TestOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOneViewController.m; sourceTree = "<group>"; };
+		6A91D51D21AE2E6800195231 /* TestOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestOneViewController.xib; sourceTree = "<group>"; };
+		6A91D53921AE361800195231 /* TstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TstViewController.h; sourceTree = "<group>"; };
+		6A91D53A21AE361800195231 /* TstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TstViewController.m; sourceTree = "<group>"; };
+		6A91D53B21AE361800195231 /* TstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,14 +92,16 @@
 		6A1E3B8621AD68740044662E /* ModuleReasource */ = {
 			isa = PBXGroup;
 			children = (
+				6A91D51B21AE2E6800195231 /* TestOneViewController.h */,
+				6A91D51C21AE2E6800195231 /* TestOneViewController.m */,
+				6A91D51D21AE2E6800195231 /* TestOneViewController.xib */,
 				6A1E3B9321AD6A290044662E /* users_config.json */,
 				6A1E3B9121AD69E70044662E /* 1.jpg */,
-				6A1E3B8721AD68B30044662E /* TestOneViewController.h */,
-				6A1E3B8821AD68B30044662E /* TestOneViewController.m */,
-				6A1E3B8921AD68B30044662E /* TestOneViewController.xib */,
-				6A1E3B8C21AD68C10044662E /* TestTwoViewController.h */,
-				6A1E3B8D21AD68C10044662E /* TestTwoViewController.m */,
-				6A1E3B8E21AD68C10044662E /* TestTwoViewController.xib */,
+				6A91D51821AE2ADF00195231 /* AssetManager.h */,
+				6A91D51921AE2ADF00195231 /* AssetManager.m */,
+				6A91D53921AE361800195231 /* TstViewController.h */,
+				6A91D53A21AE361800195231 /* TstViewController.m */,
+				6A91D53B21AE361800195231 /* TstViewController.xib */,
 			);
 			path = ModuleReasource;
 			sourceTree = SOURCE_ROOT;
@@ -158,13 +163,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A91D53D21AE361800195231 /* TstViewController.xib in Resources */,
 				6A1E3B7D21AD67B70044662E /* LaunchScreen.storyboard in Resources */,
-				6A1E3B9021AD68C10044662E /* TestTwoViewController.xib in Resources */,
 				6A1E3B9421AD6A290044662E /* users_config.json in Resources */,
 				6A1E3B7A21AD67B70044662E /* Assets.xcassets in Resources */,
 				6A1E3B9221AD69E70044662E /* 1.jpg in Resources */,
 				6A1E3B7821AD67B50044662E /* Main.storyboard in Resources */,
-				6A1E3B8B21AD68B30044662E /* TestOneViewController.xib in Resources */,
+				6A91D51F21AE2E6800195231 /* TestOneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,11 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A91D51E21AE2E6800195231 /* TestOneViewController.m in Sources */,
 				6A1E3B7521AD67B50044662E /* ViewController.m in Sources */,
-				6A1E3B8F21AD68C10044662E /* TestTwoViewController.m in Sources */,
+				6A91D53C21AE361800195231 /* TstViewController.m in Sources */,
+				6A91D51A21AE2ADF00195231 /* AssetManager.m in Sources */,
 				6A1E3B8021AD67B70044662E /* main.m in Sources */,
 				6A1E3B7221AD67B50044662E /* AppDelegate.m in Sources */,
-				6A1E3B8A21AD68B30044662E /* TestOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
