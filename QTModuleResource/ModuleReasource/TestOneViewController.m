@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //NSBundle *bundle = [AssetManager bundleReasource];
-    NSBundle *bundle = [NSBundle mainBundle];
+    NSBundle *bundle = [AssetManager bundleReasourceWithTarget:self];
+//    NSBundle *bundle = [NSBundle mainBundle];
     
     NSString * key = [[NSJSONSerialization JSONObjectWithData:[[NSData alloc] initWithContentsOfFile:[bundle pathForResource:@"users_config" ofType:@"json"]] options:NSJSONReadingMutableContainers error:nil] valueForKey:@"appkey"];
     
@@ -29,7 +29,9 @@
 
 - (IBAction)pushTWO:(id)sender {
 
-    TstViewController *tv = [[TstViewController alloc] initWithNibName:@"TstViewController" bundle:nil];
+    NSBundle *bundle = [AssetManager bundleReasourceWithTarget:self];
+
+    TstViewController *tv = [[TstViewController alloc] initWithNibName:@"TstViewController" bundle:bundle];
     [self.navigationController pushViewController:tv animated:YES];
     
     

@@ -10,9 +10,9 @@
 
 @interface AssetManager : NSObject
 
-+ (UIImage *)getImage:(NSString *)name;
+//+ (UIImage *)getImage:(NSString *)name;
 
-+ (NSBundle *)bundleReasource;
++ (NSBundle *)bundleReasourceWithTarget:(Class)target;
 
 @end
 

@@ -12,6 +12,7 @@
 
 //    'StrumBundles' => ['QTModuleResource/ModuleReasource/**/*.{xib,nib,storyboard,png,jpg}']
 
+/*
 + (UIImage *)getImage:(NSString *)name {
 
     UITraitCollection *traitCollection = [UITraitCollection traitCollectionWithDisplayScale:3];
@@ -23,10 +24,11 @@
     return image;
     
 }
+*/
 
-+ (NSBundle *)bundleReasource{
-    
-    NSBundle *bundle = [NSBundle bundleForClass:[AssetManager class]];
++ (NSBundle *)bundleReasourceWithTarget:(Class)target{
+
+    NSBundle *bundle = [NSBundle bundleForClass:[target class]];
     
     NSString *bundlePath = [[bundle resourcePath] stringByAppendingString:@"/StrumBundles.bundle"];
     
