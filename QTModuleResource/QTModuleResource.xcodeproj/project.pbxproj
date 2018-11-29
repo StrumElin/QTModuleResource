@@ -100,21 +100,21 @@
 		6A1E3B8621AD68740044662E /* ModuleReasource */ = {
 			isa = PBXGroup;
 			children = (
-				6A91D51B21AE2E6800195231 /* TestOneViewController.h */,
-				6A91D5AC21AF887E00195231 /* NoxibViewController.h */,
-				6A91D5AD21AF887E00195231 /* NoxibViewController.m */,
-				6A91D51C21AE2E6800195231 /* TestOneViewController.m */,
-				6A91D51D21AE2E6800195231 /* TestOneViewController.xib */,
-				6A1E3B9321AD6A290044662E /* users_config.json */,
 				6A1E3B9121AD69E70044662E /* 1.jpg */,
 				6A91D51821AE2ADF00195231 /* AssetManager.h */,
 				6A91D51921AE2ADF00195231 /* AssetManager.m */,
-				6A91D53921AE361800195231 /* TstViewController.h */,
-				6A91D53A21AE361800195231 /* TstViewController.m */,
-				6A91D53B21AE361800195231 /* TstViewController.xib */,
+				6A91D5AC21AF887E00195231 /* NoxibViewController.h */,
+				6A91D5AD21AF887E00195231 /* NoxibViewController.m */,
+				6A91D51B21AE2E6800195231 /* TestOneViewController.h */,
+				6A91D51C21AE2E6800195231 /* TestOneViewController.m */,
+				6A91D51D21AE2E6800195231 /* TestOneViewController.xib */,
 				6A91D5A421AF786800195231 /* TestView.h */,
 				6A91D5A521AF786800195231 /* TestView.m */,
 				6A91D5A721AF787300195231 /* TestView.xib */,
+				6A91D53921AE361800195231 /* TstViewController.h */,
+				6A91D53A21AE361800195231 /* TstViewController.m */,
+				6A91D53B21AE361800195231 /* TstViewController.xib */,
+				6A1E3B9321AD6A290044662E /* users_config.json */,
 			);
 			path = ModuleReasource;
 			sourceTree = SOURCE_ROOT;

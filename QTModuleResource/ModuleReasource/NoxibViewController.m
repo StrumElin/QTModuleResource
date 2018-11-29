@@ -29,6 +29,8 @@
     [b addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:b];
     
+    
+    
     // Do any additional setup after loading the view.
 }
 
