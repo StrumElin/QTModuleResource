@@ -23,9 +23,9 @@
 
 - (IBAction)pushOne:(id)sender {
     
-     NSBundle *bundle = [AssetManager bundleReasource];
+//     NSBundle *bundle = [AssetManager bundleReasource];
     
-    TestOneViewController *tv = [[TestOneViewController alloc] initWithNibName:@"TestOneViewController" bundle:bundle];
+    TestOneViewController *tv = [[TestOneViewController alloc] initWithNibName:@"TestOneViewController" bundle:[NSBundle mainBundle]];
 //
     [self.navigationController pushViewController:tv animated:YES];
 }
