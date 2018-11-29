@@ -29,7 +29,7 @@
 
 - (IBAction)pushTWO:(id)sender {
 
-    TstViewController *tv = [[TstViewController alloc] initWithNibName:@"TstViewController" bundle: [NSBundle mainBundle]];
+    TstViewController *tv = [[TstViewController alloc] initWithNibName:@"TstViewController" bundle:nil];
     [self.navigationController pushViewController:tv animated:YES];
     
     

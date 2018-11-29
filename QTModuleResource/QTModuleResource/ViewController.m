@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TestOneViewController.h"
 #import "AssetManager.h"
+#import "NoxibViewController.h"
 
 @interface ViewController ()
 
@@ -25,8 +26,10 @@
     
 //     NSBundle *bundle = [AssetManager bundleReasource];
     
-    TestOneViewController *tv = [[TestOneViewController alloc] initWithNibName:@"TestOneViewController" bundle:[NSBundle mainBundle]];
+//    TestOneViewController *tv = [[TestOneViewController alloc] initWithNibName:@"TestOneViewController" bundle:[NSBundle mainBundle]];
+    
 //
+    NoxibViewController *tv =[[NoxibViewController alloc] init];
     [self.navigationController pushViewController:tv animated:YES];
 }
 
