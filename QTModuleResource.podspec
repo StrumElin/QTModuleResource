@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QTModuleResource"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "A short description of QTModuleResource."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
 
   s.resource_bundles={
-    'StrumBundles' => ['QTModuleResource/ModuleReasource/**/*.{xib,nib,storyboard,png,jpg}']
+    'StrumBundles' => ['QTModuleResource/ModuleReasource/**/*.{xib,nib,storyboard,png,jpg,json,strings}']
   }
 
 
